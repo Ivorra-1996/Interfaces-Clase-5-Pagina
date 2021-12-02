@@ -1,0 +1,297 @@
+.body{
+    position: flex;
+    width: 1440px;
+    height: 885px;
+    background: #FFFFFF;
+}
+
+
+.logoUnahur{
+    position: absolute;
+    width: 234px;
+    height: 201px;
+    left: 885px;
+    top: 57px;
+}
+
+.letrasUnahur{
+    position: absolute;
+    width: 464px;
+    height: 172px;
+    left: 780px;
+    top: 298px;
+}
+
+.letras1{
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    left: 800px;
+    top: 558px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 14px;
+}
+.letras2{
+    position: absolute;
+    width: 55px;
+    height: 14px;
+    left: 800px;
+    top: 628px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18spx;
+    line-height: 14px;
+    /* identical to box height */
+    color: #000000;
+}
+.bodertop{
+    position: flex;
+    width: 1893px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+}
+.boderdown{
+    position: flex;
+    width: 1893px;
+    height: 32px;
+    left: 0px;
+    top: 992px;
+    background: #000000;
+}
+
+.formulario-user{
+    position: absolute;
+    width: 413px;
+    height: 36px;
+    left: 800px;
+    top: 600px;
+    
+    background: #EAEAEA;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.formulario-pass{
+    position: absolute;
+    width: 413px;
+    height: 37px;
+    left: 800px;
+    top: 665px;
+
+    background: #EAEAEA;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.olvido-pass{
+    position: absolute;
+    width: 413px;
+    height: 37px;
+    left: 800px;
+    top: 705px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.button1{
+    position: absolute;
+    width: 410px;
+    height: 54px;
+    left: 800px;
+    top: 762px;
+
+    background: #9FF30C;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.button2{
+    position: absolute;
+    width: 410px;
+    height: 55px;
+    left: 800px;
+    top: 857px;
+    
+    background: #5294E2;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.bodertop2{
+    position: absolute;
+    width: 1893px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;
+}
+
+.boderdown2{
+    position: absolute;
+    width: 1893px;
+    height: 60px;
+    left: 0px;
+    top: 895px;
+    
+    background: #000000;
+}
+
+.opciones{
+    position: absolute;
+    width: 44px;
+    height: 41px;
+    left: 1386px;
+    top: 10px;
+    
+    background: #55A22E;
+    border-radius: 30px;
+}
+
+.barra{
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    border: 2px solid #000000;
+    left: 1395px;
+}
+
+#posicion-barra1{
+    top: 20px;
+}
+
+#posicion-barra2{
+    top: 30px;
+}
+
+#posicion-barra3{
+    top: 40px;
+}
+
+.titulo{
+    position: absolute;
+    width: 783px;
+    height: 112px;
+    left: 328px;
+    top: 120px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.search{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 600px;
+    top: 15px;
+    background: white;
+}
+
+.opciones-Alumnos{
+    position: absolute;
+    width: 587px;
+    height: 74px;
+    background: #01A1C6;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    left: 420px;
+}
+
+.botton-Triangular{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 960px;
+
+    background: #FFFFFF;
+    border: 2px solid #020202;
+    box-sizing: border-box;
+    transform: rotate(45.0deg);
+}
+
+
+.soyIngresante{
+    position: absolute;
+    width: 1424px;
+    height: 210px;
+    left: 250px;
+    top: 95px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.letras-estilo{
+    position: absolute;
+    width: 57px;
+    height: 21px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.input-nombre{
+    position: absolute;
+    width: 220px;
+    height: 44px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.boton-enviar{
+    position: absolute;
+    width: 136px;
+    height: 45px;
+    top: 737px;
+
+    background: #9FF30C;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

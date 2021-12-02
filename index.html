@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="estilos/estilos.css" type="text/css">
+
+</head>
+<body class="body">
+    
+    <img src="estilos/img/logo_unahur.png" alt="logo_unahur" class="logoUnahur">
+    <img src="estilos/img/unahur.png" alt="Letras_Unahur" class="letrasUnahur">
+    <div class="bodertop"></div>
+    <div class="boderdown"></div>
+
+    <div>
+        <form id="login" onsubmit="return sumit()">
+            <p class="letras1">Usuario</p>
+            <label for=""></label>
+            <input maxlength="8" type="text" id="user" placeholder="Usuario" id="" class="formulario-user" required onkeypress="return validacion(event)">
+            <p class="letras2">Contraseña</p>
+            <input type="password" name="pass" placeholder="Constraseña" id="pass" class="formulario-pass"  minlength="6" required>
+            <a  class="olvido-pass" href="recuperarpass.html">¿Olvido su contraseña?. Haz click aqui.</a>
+            <button type="submit" class="button1" form="login" formaction="menu1.html">Ingresar</button>
+        </form>
+
+        <form action="registrate.html">
+            <input type="submit" class="button2" value="Registrate" />
+        </form>
+
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
